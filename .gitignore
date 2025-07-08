@@ -1,0 +1,34 @@
+# Ignore simulation outputs
+sim/
+*.log
+*.wdb
+*.vcd
+*.pb
+*.jou
+*.str
+*.tcl
+*.bat
+*.ini
+
+# Vivado tool-generated files
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.xpr
+
+# Cadence tool-generated files
+*.cdslck
+*.oa
+*.oa-
+*.tag
+*.dm
+*.oalib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip 
